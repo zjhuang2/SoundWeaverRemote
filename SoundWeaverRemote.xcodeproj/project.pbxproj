@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7543F572C690B4800EAAF6C /* AudioSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7543F562C690B4800EAAF6C /* AudioSessionManager.swift */; };
+		E7543F592C690CED00EAAF6C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7543F582C690CED00EAAF6C /* SpeechRecognizer.swift */; };
+		E7543F5B2C6914F800EAAF6C /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7543F5A2C6914F800EAAF6C /* TranscriptView.swift */; };
+		E79D9CEE2C57D8010098BE30 /* DirectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9CED2C57D8010098BE30 /* DirectionButton.swift */; };
 		E7B42F382C43632700750E79 /* SoundWeaverRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B42F372C43632700750E79 /* SoundWeaverRemoteApp.swift */; };
 		E7B42F3A2C43632700750E79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B42F392C43632700750E79 /* ContentView.swift */; };
 		E7B42F3C2C43632700750E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B42F3B2C43632700750E79 /* Assets.xcassets */; };
 		E7B42F3F2C43632700750E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B42F3E2C43632700750E79 /* Preview Assets.xcassets */; };
+		E7B42F462C43645B00750E79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7B42F452C43645B00750E79 /* GoogleService-Info.plist */; };
+		E7B42F492C4365A400750E79 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F482C4365A400750E79 /* FirebaseDatabase */; };
+		E7B42F4B2C4365A400750E79 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F4A2C4365A400750E79 /* FirebaseDatabaseSwift */; };
+		E7B42F4D2C4365A400750E79 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F4C2C4365A400750E79 /* FirebaseFirestore */; };
+		E7B42F4F2C4365A400750E79 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F4E2C4365A400750E79 /* FirebaseFirestoreCombine-Community */; };
+		E7B42F512C4365A400750E79 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F502C4365A400750E79 /* FirebaseFirestoreSwift */; };
+		E7B42F532C4365E900750E79 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F522C4365E900750E79 /* FirebaseAnalytics */; };
+		E7B42F552C4365E900750E79 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F542C4365E900750E79 /* FirebaseAnalyticsOnDeviceConversion */; };
+		E7B42F572C4365E900750E79 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F562C4365E900750E79 /* FirebaseAnalyticsSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7543F562C690B4800EAAF6C /* AudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSessionManager.swift; sourceTree = "<group>"; };
+		E7543F582C690CED00EAAF6C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		E7543F5A2C6914F800EAAF6C /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		E79D9CED2C57D8010098BE30 /* DirectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionButton.swift; sourceTree = "<group>"; };
 		E7B42F342C43632700750E79 /* SoundWeaverRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundWeaverRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B42F372C43632700750E79 /* SoundWeaverRemoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundWeaverRemoteApp.swift; sourceTree = "<group>"; };
 		E7B42F392C43632700750E79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7B42F3B2C43632700750E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B42F3E2C43632700750E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7B42F452C43645B00750E79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B42F512C4365A400750E79 /* FirebaseFirestoreSwift in Frameworks */,
+				E7B42F4B2C4365A400750E79 /* FirebaseDatabaseSwift in Frameworks */,
+				E7B42F532C4365E900750E79 /* FirebaseAnalytics in Frameworks */,
+				E7B42F552C4365E900750E79 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				E7B42F572C4365E900750E79 /* FirebaseAnalyticsSwift in Frameworks */,
+				E7B42F4F2C4365A400750E79 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				E7B42F492C4365A400750E79 /* FirebaseDatabase in Frameworks */,
+				E7B42F4D2C4365A400750E79 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +77,15 @@
 		E7B42F362C43632700750E79 /* SoundWeaverRemote */ = {
 			isa = PBXGroup;
 			children = (
+				E7B42F452C43645B00750E79 /* GoogleService-Info.plist */,
 				E7B42F372C43632700750E79 /* SoundWeaverRemoteApp.swift */,
 				E7B42F392C43632700750E79 /* ContentView.swift */,
+				E79D9CED2C57D8010098BE30 /* DirectionButton.swift */,
 				E7B42F3B2C43632700750E79 /* Assets.xcassets */,
 				E7B42F3D2C43632700750E79 /* Preview Content */,
+				E7543F562C690B4800EAAF6C /* AudioSessionManager.swift */,
+				E7543F582C690CED00EAAF6C /* SpeechRecognizer.swift */,
+				E7543F5A2C6914F800EAAF6C /* TranscriptView.swift */,
 			);
 			path = SoundWeaverRemote;
 			sourceTree = "<group>";
@@ -83,6 +114,16 @@
 			dependencies = (
 			);
 			name = SoundWeaverRemote;
+			packageProductDependencies = (
+				E7B42F482C4365A400750E79 /* FirebaseDatabase */,
+				E7B42F4A2C4365A400750E79 /* FirebaseDatabaseSwift */,
+				E7B42F4C2C4365A400750E79 /* FirebaseFirestore */,
+				E7B42F4E2C4365A400750E79 /* FirebaseFirestoreCombine-Community */,
+				E7B42F502C4365A400750E79 /* FirebaseFirestoreSwift */,
+				E7B42F522C4365E900750E79 /* FirebaseAnalytics */,
+				E7B42F542C4365E900750E79 /* FirebaseAnalyticsOnDeviceConversion */,
+				E7B42F562C4365E900750E79 /* FirebaseAnalyticsSwift */,
+			);
 			productName = SoundWeaverRemote;
 			productReference = E7B42F342C43632700750E79 /* SoundWeaverRemote.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +152,9 @@
 				Base,
 			);
 			mainGroup = E7B42F2B2C43632700750E79;
+			packageReferences = (
+				E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E7B42F352C43632700750E79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +171,7 @@
 			files = (
 				E7B42F3F2C43632700750E79 /* Preview Assets.xcassets in Resources */,
 				E7B42F3C2C43632700750E79 /* Assets.xcassets in Resources */,
+				E7B42F462C43645B00750E79 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7543F592C690CED00EAAF6C /* SpeechRecognizer.swift in Sources */,
+				E79D9CEE2C57D8010098BE30 /* DirectionButton.swift in Sources */,
+				E7543F572C690B4800EAAF6C /* AudioSessionManager.swift in Sources */,
 				E7B42F3A2C43632700750E79 /* ContentView.swift in Sources */,
+				E7543F5B2C6914F800EAAF6C /* TranscriptView.swift in Sources */,
 				E7B42F382C43632700750E79 /* SoundWeaverRemoteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +321,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SoundWeaverRemote/Preview Content\"";
+				DEVELOPMENT_TEAM = ST54V5XQY4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We will need access to your microphone to capture audio";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +354,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SoundWeaverRemote/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We will need access to your microphone to capture audio";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +396,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7B42F482C4365A400750E79 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E7B42F4A2C4365A400750E79 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		E7B42F4C2C4365A400750E79 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E7B42F4E2C4365A400750E79 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		E7B42F502C4365A400750E79 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E7B42F522C4365E900750E79 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E7B42F542C4365E900750E79 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		E7B42F562C4365E900750E79 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7B42F472C4365A400750E79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E7B42F2C2C43632700750E79 /* Project object */;
 }
