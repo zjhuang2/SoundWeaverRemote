@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73B4FBA2C6BDCE400E06400 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E73B4FB92C6BDCE400E06400 /* GoogleService-Info.plist */; };
 		E7543F572C690B4800EAAF6C /* AudioSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7543F562C690B4800EAAF6C /* AudioSessionManager.swift */; };
 		E7543F592C690CED00EAAF6C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7543F582C690CED00EAAF6C /* SpeechRecognizer.swift */; };
 		E7543F5B2C6914F800EAAF6C /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7543F5A2C6914F800EAAF6C /* TranscriptView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E73B4FB92C6BDCE400E06400 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E7543F562C690B4800EAAF6C /* AudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSessionManager.swift; sourceTree = "<group>"; };
 		E7543F582C690CED00EAAF6C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		E7543F5A2C6914F800EAAF6C /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		E7AAFD852C6BD90500EBB753 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E73B4FB92C6BDCE400E06400 /* GoogleService-Info.plist */,
 				E7AAFD862C6BD91200EBB753 /* ClassificationResultsSubject.swift */,
 				E7AAFD882C6BD92400EBB753 /* SoundIdentifier.swift */,
 				E7AAFD8A2C6BD93200EBB753 /* DetectionState.swift */,
@@ -191,6 +194,7 @@
 			files = (
 				E7B42F3F2C43632700750E79 /* Preview Assets.xcassets in Resources */,
 				E7B42F3C2C43632700750E79 /* Assets.xcassets in Resources */,
+				E73B4FBA2C6BDCE400E06400 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
