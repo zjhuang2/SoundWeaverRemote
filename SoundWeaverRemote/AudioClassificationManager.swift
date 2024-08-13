@@ -16,7 +16,7 @@ import Combine
     /// terminates due to an error.
     private var detectionCancellable: AnyCancellable? = nil
     
-    // The config that governs sound classification
+    // The config that governs sound classification task.
     private var classificationConfig = AudioClassificationConfiguration()
     
     /// A list of mappings between sounds and current detection states.
