@@ -20,7 +20,6 @@
 		E7B42F3A2C43632700750E79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B42F392C43632700750E79 /* ContentView.swift */; };
 		E7B42F3C2C43632700750E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B42F3B2C43632700750E79 /* Assets.xcassets */; };
 		E7B42F3F2C43632700750E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B42F3E2C43632700750E79 /* Preview Assets.xcassets */; };
-		E7B42F462C43645B00750E79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7B42F452C43645B00750E79 /* GoogleService-Info.plist */; };
 		E7B42F492C4365A400750E79 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F482C4365A400750E79 /* FirebaseDatabase */; };
 		E7B42F4B2C4365A400750E79 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F4A2C4365A400750E79 /* FirebaseDatabaseSwift */; };
 		E7B42F4D2C4365A400750E79 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E7B42F4C2C4365A400750E79 /* FirebaseFirestore */; };
@@ -46,7 +45,6 @@
 		E7B42F392C43632700750E79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7B42F3B2C43632700750E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B42F3E2C43632700750E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E7B42F452C43645B00750E79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				E7AAFD852C6BD90500EBB753 /* Helper */,
-				E7B42F452C43645B00750E79 /* GoogleService-Info.plist */,
 				E7B42F372C43632700750E79 /* SoundWeaverRemoteApp.swift */,
 				E7B42F392C43632700750E79 /* ContentView.swift */,
 				E79D9CED2C57D8010098BE30 /* DirectionButton.swift */,
@@ -194,7 +191,6 @@
 			files = (
 				E7B42F3F2C43632700750E79 /* Preview Assets.xcassets in Resources */,
 				E7B42F3C2C43632700750E79 /* Assets.xcassets in Resources */,
-				E7B42F462C43645B00750E79 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
